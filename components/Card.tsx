@@ -11,7 +11,7 @@ export interface CardProps {
 export const Card = ({ title, description, imgURL, link }: CardProps) => {
   return link ? (
     <Link href={link}>
-      <div className="card max-w-96 bg-neutral shadow-xl rounded-md border-4 border-transparent hover:border-primary">
+      <div className="card max-w-96 bg-neutral shadow-2xl rounded-md border-4 border-transparent hover:border-primary">
         <div className="card-body">
           <h3 className="card-title">{title}</h3>
           <p>{description}</p>
