@@ -1,6 +1,6 @@
 'use client';
 
-import '@dotlottie/player-component';
+import { DotLottiePlayer } from '@dotlottie/react-player';
 import { motion } from 'framer-motion';
 
 export const Animation = () => {
@@ -11,7 +11,7 @@ export const Animation = () => {
       animate={{ opacity: 1, filter: 'blur(0px)' }}
       transition={{ duration: 0.5 }}
     >
-      <dotlottie-player src="/world-animation.lottie" autoplay loop />
+      <DotLottiePlayer src="/world-animation.lottie" autoplay loop />
     </motion.div>
   );
 };
