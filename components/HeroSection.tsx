@@ -1,3 +1,6 @@
+'use client';
+
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 export interface HeroSectionProps {
@@ -13,10 +16,15 @@ export const HeroSection = ({
 }: HeroSectionProps) => {
   return (
     <div className="hero min-h-screen bg-neutral">
-      <div className="hero-content flex-col lg:flex-row gap-12">
+      <motion.div
+        className="hero-content flex-col lg:flex-row gap-12"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <Image
           src={imgURL}
-          className="rounded-md shadow-2xl"
+          className="rounded-md shadow-2xl h-auto"
           alt="ai generated image"
           width={384}
           height={384}
@@ -26,7 +34,7 @@ export const HeroSection = ({
           <h2 className="text-5xl px-6">{title}</h2>
           <p className="p-6 leading-relaxed">{description}</p>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

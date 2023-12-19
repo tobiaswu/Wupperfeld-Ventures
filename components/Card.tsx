@@ -9,15 +9,16 @@ export interface CardProps {
 }
 
 export const Card = ({ title, description, imgURL, link }: CardProps) => {
-  return link ? (
-    <Link href={link}>
-      <div className="card max-w-96 bg-neutral shadow-2xl rounded-md border-4 border-transparent hover:border-primary">
+  const CardComponent = () => {
+    return (
+      <div className="card bg-neutral shadow-2xl rounded-md border-4 border-transparent hover:border-primary">
         <div className="card-body">
           <h3 className="card-title">{title}</h3>
           <p>{description}</p>
         </div>
         <figure>
           <Image
+            className="w-auto"
             src={imgURL}
             alt={`Logo of ${title}`}
             width={600}
@@ -26,16 +27,14 @@ export const Card = ({ title, description, imgURL, link }: CardProps) => {
           />
         </figure>
       </div>
+    );
+  };
+
+  return link ? (
+    <Link href={link}>
+      <CardComponent />
     </Link>
   ) : (
-    <div className="card max-w-96 bg-neutral shadow-xl rounded-md border-4 border-transparent hover:border-primary">
-      <div className="card-body">
-        <h3 className="card-title">{title}</h3>
-        <p>{description}</p>
-      </div>
-      <figure>
-        <Image src={imgURL} alt={`Logo of ${title}`} width={600} height={400} />
-      </figure>
-    </div>
+    <CardComponent />
   );
 };

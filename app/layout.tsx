@@ -8,7 +8,8 @@ const roboto = Roboto({ subsets: ['latin'], weight: ['300', '500'] });
 
 export const metadata: Metadata = {
   title: 'Wupperfeld Ventures',
-  description: 'Building a portfolio of startups',
+  description:
+    'Building a portfolio of startups ✓ join our mission ✓ get in touch now',
 };
 
 export default function RootLayout({
