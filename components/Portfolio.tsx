@@ -24,7 +24,7 @@ export const Portfolio = () => {
             title="React Developer as a Service"
             description="A productized service providing React development and consulting services with a fixed price and scope to businesses."
             imgURL="/rdaas_illustration.webp"
-            link="https://tobiaswupperfeld.com"
+            link="https://www.tobiaswupperfeld.com"
           />
         </motion.div>
         <motion.div
@@ -33,9 +33,10 @@ export const Portfolio = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <Card
-            title="AIAA"
-            description="A portal about automation and digitization for businesses based on real use cases. This is currently under development and coming soon."
+            title="DigitizerSpace"
+            description="A portal about automation and digitization for businesses based on real use cases."
             imgURL="/aiaa_illustration.webp"
+            link="https://www.digitizerspace.com"
           />
         </motion.div>
         <motion.div
