@@ -18,10 +18,10 @@ export const Hero = () => {
         />
         <div>
           <motion.h1
-            className="text-4xl text-white leading-normal"
+            className="text-2xl md:text-3xl lg:text-4xl text-white leading-normal font-bold"
             initial={{ opacity: 0, y: 50, filter: 'blur(5px)' }}
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.5, ease: 'easeOut' }}
           >
             Building and Investing in Technology-Driven Ventures. Turning
             Innovative Ideas Into Impactful Solutions.

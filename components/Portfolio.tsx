@@ -7,7 +7,7 @@ export const Portfolio = () => {
   return (
     <div className="container mx-auto min-h-screen px-4 mb-8">
       <motion.h2
-        className="text-5xl text-center py-24"
+        className="text-4xl md:text-5xl lg:text-6xl font-bold text-center py-24"
         initial={{ opacity: 0, y: 50, filter: 'blur(5px)' }}
         whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
         transition={{ duration: 0.5 }}

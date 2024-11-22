@@ -18,7 +18,7 @@ export const Card = ({
 }: CardProps) => {
   const CardComponent = () => {
     return (
-      <div className="card h-full bg-neutral shadow-2xl rounded-md border-4 border-transparent hover:border-primary">
+      <div className="card h-full bg-neutral shadow-2xl rounded-md border-4 border-transparent hover:border-primary transition-all duration-300 hover:scale-105">
         <div className="card-body">
           <h3 className="card-title">{title}</h3>
           <p>{description}</p>
