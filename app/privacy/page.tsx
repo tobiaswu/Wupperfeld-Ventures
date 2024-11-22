@@ -1,133 +1,288 @@
 import type { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  title: 'Wupperfeld Ventures | Privacy Policy',
-  description:
-    'Everything about how we handle your data at Wupperfeld Ventures ✓ join our mission ✓ get in touch now',
-};
-
 export default function Privacy() {
   return (
-    <div className="container mx-auto pt-32 px-4 mb-8">
-      <h1 className="pb-24 text-5xl font-bold">Privacy Policy</h1>
-      <p className="mb-4">
-        At TW Software Solutions LLC, accessible from https://wupperfeld.org,
-        one of our main priorities is the privacy of our visitors. This Privacy
+    <div className="container mx-auto py-8 px-4 bg-base-100">
+      <h1 className="text-4xl sm:text-6xl font-bold mb-12 sm:leading-relaxed">
+        Wupperfeld Ventures Privacy Policy
+      </h1>
+      <p className="pb-8 text-sm text-gunmetal-600">Last Updated: 11/22/2024</p>
+      <p className="pb-8">
+        At Wupperfeld Ventures, accessible from https://www.wupperfeld.org, one
+        of our main priorities is the privacy of our visitors. This Privacy
         Policy document contains types of information that is collected and
-        recorded by TW Software Solutions LLC and how we use it.
+        recorded by Wupperfeld Ventures and how we use it.
       </p>
-      <p className="mb-4">
+      <p className="pb-8">
         If you have additional questions or require more information about our
         Privacy Policy, do not hesitate to contact us.
       </p>
-      <h2 className="mb-2 text-2xl">Log Files</h2>
-      <p className="mb-4">
-        TW Software Solutions LLC follows a standard procedure of using log
-        files. These files log visitors when they visit websites. All hosting
-        companies do this and a part of hosting services&apos; analytics. The
-        information collected by log files include internet protocol (IP)
-        addresses, browser type, Internet Service Provider (ISP), date and time
-        stamp, referring/exit pages, and possibly the number of clicks. These
-        are not linked to any information that is personally identifiable. The
-        purpose of the information is for analyzing trends, administering the
-        site, tracking users&apos; movement on the website, and gathering
-        demographic information.
+
+      {/* LOG FILES */}
+      <h2 className="pb-4 text-2xl">Log Files</h2>
+      <p className="pb-8">
+        Wupperfeld Ventures maintains standard server logs that may include IP
+        addresses and basic access information. These logs are used solely for
+        security purposes and website maintenance, and are automatically deleted
+        after 30 days.
       </p>
-      <h2 className="mb-2 text-2xl">Cookies and Web Beacons</h2>
-      <p className="mb-4">
-        Like any other website, TW Software Solutions LLC uses
-        &quot;cookies&quot;. These cookies are used to store information
-        including visitors&apos; preferences, and the pages on the website that
-        the visitor accessed or visited. The information is used to optimize the
-        users&apos; experience by customizing our web page content based on
-        visitors&apos; browser type and/or other information.
-      </p>
-      <h2 className="mb-2 text-2xl">Google DoubleClick DART Cookie</h2>
-      <p className="mb-4">
-        Google is one of a third-party vendor on our site. It also uses cookies,
-        known as DART cookies, to serve ads to our site visitors based upon
-        their visit to www.website.com and other sites on the internet. However,
-        visitors may choose to decline the use of DART cookies by visiting the
-        Google ad and content network Privacy Policy at the following URL:{' '}
-        <a href="https://policies.google.com/technologies/ads">
-          https://policies.google.com/technologies/ads
-        </a>
-      </p>
-      <h2 className="mb-2 text-2xl">Our Advertising Partners</h2>
-      <p className="mb-4">
-        Some of advertisers on our site may use cookies and web beacons. Our
-        advertising partners are listed below. Each of our advertising partners
-        has their own Privacy Policy for their policies on user data. For easier
-        access, we hyperlinked to their Privacy Policies below.
-      </p>
-      <ul className="mb-4 pl-4">
-        <li>
-          <p>Google</p>
-          <p>
-            <a href="https://policies.google.com/technologies/ads">
-              https://policies.google.com/technologies/ads
-            </a>
-          </p>
-        </li>
-      </ul>
-      <h2 className="mb-2 text-2xl">Privacy Policies</h2>
-      <p className="mb-4">
+
+      {/* PRIVACY POLICIES */}
+      <h2 className="pb-4 text-2xl">Privacy Policies</h2>
+      <p className="pb-8">
         You may consult this list to find the Privacy Policy for each of the
-        advertising partners of TW Software Solutions LLC.
+        advertising partners of Wupperfeld Ventures.
       </p>
-      <p className="mb-4">
+      <p className="pb-8">
         Third-party ad servers or ad networks uses technologies like cookies,
         JavaScript, or Web Beacons that are used in their respective
-        advertisements and links that appear on TW Software Solutions LLC, which
-        are sent directly to users&apos; browser. They automatically receive
-        your IP address when this occurs. These technologies are used to measure
-        the effectiveness of their advertising campaigns and/or to personalize
-        the advertising content that you see on websites that you visit.
+        advertisements and links that appear on Wupperfeld Ventures, which are
+        sent directly to users&apos; browser. They automatically receive your IP
+        address when this occurs. These technologies are used to measure the
+        effectiveness of their advertising campaigns and/or to personalize the
+        advertising content that you see on websites that you visit.
       </p>
-      <p className="mb-4">
-        Note that TW Software Solutions LLC has no access to or control over
-        these cookies that are used by third-party advertisers.
+      <p className="pb-8">
+        Note that Wupperfeld Ventures has no access to or control over these
+        cookies that are used by third-party advertisers.
       </p>
-      <h2 className="mb-2 text-2xl">Third Party Privacy Policies</h2>
-      <p className="mb-4">
-        TW Software Solutions LLC&apos;s Privacy Policy does not apply to other
+
+      {/* THIRD PARTY */}
+      <h2 className="pb-4 text-2xl">Third Party Privacy Policies</h2>
+      <p className="pb-8">
+        Wupperfeld Ventures&apos;s Privacy Policy does not apply to other
         advertisers or websites. Thus, we are advising you to consult the
         respective Privacy Policies of these third-party ad servers for more
         detailed information. It may include their practices and instructions
         about how to opt-out of certain options.
       </p>
-      <p className="mb-4">
+      <p className="pb-8">
         You can choose to disable cookies through your individual browser
         options. To know more detailed information about cookie management with
         specific web browsers, it can be found at the browsers&apos; respective
         websites.
       </p>
-      <h2 className="mb-2 text-2xl">Children&apos;s Information</h2>
-      <p className="mb-4">
+
+      {/* CHILDREN */}
+      <h2 className="pb-4 text-2xl">Children&apos;s Information</h2>
+      <p className="pb-8">
         Another part of our priority is adding protection for children while
         using the internet. We encourage parents and guardians to observe,
         participate in, and/or monitor and guide their online activity.
       </p>
-      <p className="mb-4">
-        TW Software Solutions LLC does not knowingly collect any Personal
-        Identifiable Information from children under the age of 13. If you think
-        that your child provided this kind of information on our website, we
-        strongly encourage you to contact us immediately and we will do our best
-        efforts to promptly remove such information from our records.
+      <p className="pb-8">
+        Wupperfeld Ventures does not knowingly collect any Personal Identifiable
+        Information from children under the age of 13. If you think that your
+        child provided this kind of information on our website, we strongly
+        encourage you to contact us immediately and we will do our best efforts
+        to promptly remove such information from our records.
       </p>
-      <h2 className="mb-2 text-2xl">Online Privacy Policy Only</h2>
-      <p className="mb-4">
+
+      {/* ONLINE */}
+      <h2 className="pb-4 text-2xl">Online Privacy Policy Only</h2>
+      <p className="pb-8">
         This Privacy Policy applies only to our online activities and is valid
         for visitors to our website with regards to the information that they
-        shared and/or collect in TW Software Solutions LLC. This policy is not
+        shared and/or collect in Wupperfeld Ventures. This policy is not
         applicable to any information collected offline or via channels other
         than this website.
       </p>
-      <h2 className="mb-2 text-2xl">Consent</h2>
+
+      {/* DATA PROCESSING */}
+      <h2 className="pb-4 text-2xl">Data Processing Location</h2>
+      <p className="pb-8">
+        Wupperfeld Ventures processes and stores data primarily in the European
+        Union through our service provider Vercel. However, some of our
+        third-party service providers may process data in other locations. When
+        we transfer data outside the EU/EEA, we ensure appropriate safeguards
+        are in place through:
+      </p>
+      <ul className="list-disc pl-8 pb-8">
+        <li className="pb-2">
+          Standard contractual clauses approved by the European Commission
+        </li>
+        <li className="pb-2">
+          Working only with providers that maintain adequate data protection
+          measures
+        </li>
+        <li className="pb-2">
+          Ensuring transparency about data processing locations
+        </li>
+      </ul>
+
+      {/* PRIVACY RIGHTS */}
+      <h2 className="pb-4 text-2xl">Your Privacy Rights</h2>
+      <p className="pb-8">
+        Under data protection laws, you have rights that you can exercise at any
+        time. These include:
+      </p>
+      <ul className="list-disc pl-8 pb-8">
+        <li className="pb-2">
+          <strong>Right to Access:</strong> You can request a copy of your
+          personal data.
+        </li>
+        <li className="pb-2">
+          <strong>Right to Rectification:</strong> You can ask us to correct or
+          complete any inaccurate or incomplete data.
+        </li>
+        <li className="pb-2">
+          <strong>Right to Erasure:</strong> You can ask us to delete your
+          personal data in certain circumstances.
+        </li>
+        <li className="pb-2">
+          <strong>Right to Restrict Processing:</strong> You can ask us to limit
+          how we use your data.
+        </li>
+        <li className="pb-2">
+          <strong>Right to Data Portability:</strong> You can request a copy of
+          your data in a machine-readable format.
+        </li>
+        <li className="pb-2">
+          <strong>Right to Object:</strong> You can object to our processing of
+          your data for certain purposes.
+        </li>
+      </ul>
+
+      {/* DATA RETENTION */}
+      <h2 className="pb-4 text-2xl">Data Retention</h2>
+      <p className="pb-8">
+        We retain different types of data for different periods based on our
+        legitimate business needs and legal requirements. Here&apos;s how long
+        we typically keep your data:
+      </p>
+      <ul className="list-disc pl-8 pb-8">
+        <li className="pb-2">
+          <strong>Server Logs:</strong> 30 days for security and debugging
+          purposes
+        </li>
+        <li className="pb-2">
+          <strong>Contact Form Submissions:</strong> 2 years from submission
+          date
+        </li>
+      </ul>
+
+      {/* DATA PROCESSING ACTIVITIES */}
+      <h2 className="pb-4 text-2xl">Data Processing Activities</h2>
+      <p className="pb-8">We process your data for the following purposes:</p>
+      <div className="overflow-x-auto pb-8">
+        <table className="w-full border-collapse">
+          <thead>
+            <tr className="border-b">
+              <th className="text-left p-2">Purpose</th>
+              <th className="text-left p-2">Data Types</th>
+              <th className="text-left p-2">Legal Basis</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="border-b">
+              <td className="p-2">Security</td>
+              <td className="p-2">IP address, access logs</td>
+              <td className="p-2">Legal obligation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      {/* AUTOMATED DECISIONS */}
+      <h2 className="pb-4 text-2xl">Automated Decision Making</h2>
+      <p className="pb-8">
+        Wupperfeld Ventures does not engage in automated decision-making or
+        profiling that produces legal effects or similarly significant impacts
+        on our users.
+      </p>
+
+      {/* SPECIAL CATEGORIES */}
+      <h2 className="pb-4 text-2xl">Special Categories of Personal Data</h2>
+      <p className="pb-8">
+        Wupperfeld Ventures does not intentionally collect or process any
+        special categories of personal data (also known as sensitive personal
+        data), including:
+      </p>
+      <ul className="list-disc pl-8 pb-8">
+        <li className="pb-2">Racial or ethnic origin</li>
+        <li className="pb-2">Political opinions</li>
+        <li className="pb-2">Religious or philosophical beliefs</li>
+        <li className="pb-2">Trade union membership</li>
+        <li className="pb-2">Genetic or biometric data</li>
+        <li className="pb-2">Health data</li>
+        <li className="pb-2">
+          Data concerning a person&apos;s sex life or sexual orientation
+        </li>
+      </ul>
+      <p className="pb-8">
+        If you inadvertently submit any such information to us, we will delete
+        it as soon as we become aware of its presence in our systems.
+      </p>
+
+      {/* CHANGES */}
+      <h2 className="pb-4 text-2xl">Changes to This Privacy Policy</h2>
+      <p className="pb-8">
+        We may update this Privacy Policy from time to time to reflect changes
+        in our practices or for legal, operational, or regulatory reasons. When
+        we make significant changes, we will:
+      </p>
+      <ul className="list-disc pl-8 pb-8">
+        <li className="pb-2">
+          Update the &quot;Last Updated&quot; date at the top of this policy
+        </li>
+        <li className="pb-2">
+          Post a notice on our website or send you an email (for significant
+          changes)
+        </li>
+        <li className="pb-2">Keep previous versions available upon request</li>
+      </ul>
+      <p className="pb-8">
+        We encourage you to review this Privacy Policy periodically to stay
+        informed about how we protect your data. Continued use of our services
+        after any changes to this Privacy Policy will constitute your acceptance
+        of such changes.
+      </p>
+
+      {/* CONTACT */}
+      <h2 className="pb-4 text-2xl">Contact Us About Privacy</h2>
+      <p className="pb-8">
+        For any privacy-related inquiries or to exercise your privacy rights,
+        please contact us at:
+      </p>
+      <ul className="list-disc pl-8 pb-8">
+        <li className="pb-2">Email: tobias@wupperfeld.org</li>
+        <li className="pb-2">
+          Response Time: We aim to respond to all privacy-related requests
+          within 30 days
+        </li>
+      </ul>
+
+      {/* CONSENT */}
+      <h2 className="pb-4 text-2xl">Consent</h2>
       <p>
         By using our website, you hereby consent to our Privacy Policy and agree
         to its Terms and Conditions.
       </p>
     </div>
   );
+}
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Wupperfeld Ventures Privacy Policy',
+    description:
+      'We are committed to protecting your privacy and ensuring the security of your personal data.',
+    robots: { index: false, follow: false },
+    openGraph: {
+      title: 'Wupperfeld Ventures Privacy Policy',
+      description:
+        'We are committed to protecting your privacy and ensuring the security of your personal data.',
+      type: 'website',
+      images: [
+        {
+          url: '/wv_logo.webp',
+          width: 1730,
+          height: 744,
+          alt: 'Wupperfeld Ventures Logo',
+        },
+      ],
+      url: 'https://www.wupperfeld.org/privacy',
+      siteName: 'Wupperfeld Ventures Privacy Policy',
+    },
+  };
 }
