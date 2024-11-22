@@ -4,11 +4,18 @@ import Link from 'next/link';
 export interface CardProps {
   title: string;
   description: string;
-  imgURL: string;
+  videoURL: string;
+  thumbnailURL: string;
   link?: string;
 }
 
-export const Card = ({ title, description, imgURL, link }: CardProps) => {
+export const Card = ({
+  title,
+  description,
+  videoURL,
+  thumbnailURL,
+  link,
+}: CardProps) => {
   const CardComponent = () => {
     return (
       <div className="card h-full bg-neutral shadow-2xl rounded-md border-4 border-transparent hover:border-primary">
@@ -17,13 +24,13 @@ export const Card = ({ title, description, imgURL, link }: CardProps) => {
           <p>{description}</p>
         </div>
         <figure>
-          <Image
-            className="w-full h-auto"
-            src={imgURL}
-            alt={`Logo of ${title}`}
-            width={300}
-            height={200}
-            loading="lazy"
+          <video
+            src={videoURL}
+            autoPlay
+            muted
+            loop
+            playsInline
+            poster={thumbnailURL}
           />
         </figure>
       </div>

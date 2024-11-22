@@ -15,16 +15,16 @@ export const Hero = () => {
           alt="Logo of Wupperfeld Ventures"
           width={384}
           height={200}
-          loading="lazy"
         />
         <div>
           <motion.h1
-            className="text-6xl text-white leading-normal"
+            className="text-4xl text-white leading-normal"
             initial={{ opacity: 0, y: 50, filter: 'blur(5px)' }}
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             transition={{ duration: 0.5 }}
           >
-            Welcome to the Universe of Wupperfeld Ventures
+            We are a team of entrepreneurs, engineers, and economists who are
+            passionate about building and investing in startups.
           </motion.h1>
           <Link href="mailto:tobias@wupperfeld.org">
             <motion.button
