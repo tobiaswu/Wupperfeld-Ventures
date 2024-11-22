@@ -8,7 +8,7 @@ import { Animation } from './Animation';
 export const Hero = () => {
   return (
     <div className="hero min-h-screen">
-      <div className="hero-content flex-col lg:flex-row-reverse text-center lg:text-left gap-12">
+      <div className="hero-content flex-col lg:flex-row-reverse text-center lg:text-left gap-16">
         <Image
           className="h-auto"
           src="/wv_logo.webp"
@@ -23,8 +23,8 @@ export const Hero = () => {
             animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
             transition={{ duration: 0.5 }}
           >
-            We are a team of entrepreneurs, engineers, and economists who are
-            passionate about building and investing in startups.
+            Building and Investing in Technology-Driven Ventures. Turning
+            Innovative Ideas Into Impactful Solutions.
           </motion.h1>
           <Link href="mailto:tobias@wupperfeld.org">
             <motion.button
