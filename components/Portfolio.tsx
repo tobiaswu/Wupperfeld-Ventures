@@ -21,11 +21,11 @@ export const Portfolio = () => {
           transition={{ duration: 0.5 }}
         >
           <Card
-            title="PaperlessZone"
-            description="From intelligent automation to smart document management, PaperlessZone builds AI solutions that revolutionize how your business operates. PaperlessZone's custom-built tools deliver measurable results from day one."
-            videoURL="https://res.cloudinary.com/dht4egkp3/video/upload/v1732284371/paperlesszone-logo-animated_ycledo.mp4"
-            thumbnailURL="/paperlesszone-logo.webp"
-            link="https://www.paperlesszone.com"
+            title="MadebyAgents"
+            description="MadebyAgents builds AI tools that grow your business. From AI agents to smart automation. MadebyAgents tools deliver results from day one."
+            videoURL=""
+            thumbnailURL="/madebyagents.webp"
+            link="https://www.madebyagents.com"
           />
         </motion.div>
       </div>
